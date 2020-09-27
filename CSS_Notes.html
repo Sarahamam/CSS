@@ -1,0 +1,175 @@
+This is my CSS Notes<br>
+TEXT INLINE CENTER ALIGNMENT <p style="text-align: center;">This is a haiku</p>
+TEXT INLINE COLORING <p STYLE="COLOR: RED;"> Make me red!</p>
+TEXT INLINE COLORING AND CENTERING <p style="text-align:center; color:blue;">This will be both centered and blue.</p>
+Selector a then declaration block {color (property): green;(value)}
+A class is used to differentiate some of the paragraphs from others, inorder for a group of them to have the same characterstics
+to use a class :
+<p class ="Introduction"> this is a paragraph with a class </p>
+.Introduction {font-size: larger;}
+apply two classes to one element <li class="highlight done">Make waffles
+Linking to another file with different styles syntax <link rel="stylesheet" href="style.css">
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MY CSS NOTES</title>
+    <style>
+      p { color: red; }
+      ol { display: flex; }
+      li { margin: 20px; }
+
+    </style>
+  </head>
+  <body>
+
+    <p>These are some red red words.</p>
+    <ol>
+      <li>Apple apple berry berry sauce sauce sauce.<br>
+          Cook it on the stove and serve it to your boss.
+      <li>Betty bought a bit of butter,
+          but the butter's burning bitter.<br>
+      <li>Crisp cookies claim Charlie's cookout crown.<br>  Clever Clara
+          clocked the crows at <em>c</em> (clearly connivance!)
+      <li>Daring drivers drove down Devil's Ditch in Dodges.
+      <li>Evil eggs explode everywhere. Eww!
+    </ol>
+
+  </body>
+</html>
+
+
+
+<p STYLE="COLOR:#fed000;"> Make me red!</p>
+<p STYLE="COLOR: rgb(80, 5, 120);"> Make me green!</p>
+<p STYLE="COLOR: rgb(90%, 90%, 90%);"> Make  me blue!</p>
+
+
+<p style="text-align: center;">This is a haiku</p>
+<p style="text-align: center;"> So I want each line centered</p>
+<p style="text-align: center;">Let’s make it stylish</p>
+
+
+<style>
+  P {text-align: center;}
+ </STYLE>
+<p>This is a haiku</p>
+<p>So I want each line centered</p>
+<p>Let’s make it stylish</p>
+
+<style>
+  p{font-size:24pt;}
+  </style>
+  <p>I <em style="color:red;">love</em> CSS!</p>
+
+
+<style>
+  li {
+    font-size:1.5em;
+  }
+</style>
+<h1>To-do:</h1>
+<ul>
+  <li>Buy milk
+  <li>Buy eggs
+  <li>Buy flour
+  <li>Make waffles
+  <li>Do laundry
+  <li>Learn to code
+  <li>Build a robot
+</ul>
+
+<style>
+.highlight
+{
+  background-color: yellow;
+  font-weight: bold;
+}
+</style>
+<h1 class="highlight">I'm important!</h1>
+<h2 class="highlight">As am I!</h2>
+<p class="highlight">Me too!</p>
+
+
+
+<style>
+#introduction {
+  font-weight: bold;}
+</style>
+
+<p id="introduction">Welcome to my page ...</p>
+
+
+<style>
+  .li {font-size: 1.5em;}
+  .highlight {background-color: yellow;}
+  .done {text-decoration: line-through;}
+</style>
+<h1>To-do:</h1>
+<ul>
+  <li Class="done">Buy milk
+  <li>Buy eggs
+  <li Class="done">Buy flour
+  <li Class="highlight">Make waffles
+  <li>Do laundry
+  <li Class="highlight">Learn to code
+  <li Class="highlight">Build a robot
+</ul>
+
+In other words, how can we apply two classes to one element? <li class="highlight done">Make waffles
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Color practice!</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1>Color me with RGB!</h1>
+    </body>
+  </html>
+
+
+
+
+  -------------------------------------------------------------------------
+
+
+  <html>
+    <head>
+      <link rel="stylesheet"
+            href="https://fonts.google.com/specimen/Piedra">
+      <style>
+        body {
+          font-family: 'Piedra', cursive;
+          font-size: 48px;
+          text-shadow: 4px 4px 4px #aaa;
+        }
+      </style>
+    </head>
+    <body>
+      <div>Making the Web Beautiful!</div>
+    </body>
+  </html>
+
+
+  --------------------------------------------------------------------
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Flexbox practice!</title>
+      <link rel="stylesheet" href="flex.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="box red">red</div>
+        <div class="box green">green</div>
+        <div class="box yellow">yellow</div>
+      </div>
+    </body>
+  </html>
